@@ -1,0 +1,45 @@
+﻿# Private biometric data
+dataset/
+students/
+attendance/
+attendence/
+
+# Trained models
+trainer/
+models/
+*.keras
+*.h5
+*.pth
+*.pt
+
+# Project environment
+face_env/
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Private configuration
+.env
+
+# Data folder: keep only placeholder
+data/*
+!data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local notebook backups
+notebooks/*_backup.ipynb
+
+
+# Biometric embedding files
+*.npz
